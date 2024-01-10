@@ -1,0 +1,269 @@
+header {
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+   
+    padding: 0 13.7%;
+    box-sizing: border-box;
+    
+    transition: .5s;
+    overflow: hidden;
+}
+
+
+.logo {
+    width: 5.21vw;
+    height: 100%;
+}
+
+.logo img {
+    width: 100%;
+    height: 100px;
+}
+
+.nav {
+    width: 30vw;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    align-content: center;
+    z-index: 55;
+}
+
+
+.gnb {
+    display: flex;
+    justify-content: space-between;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+.inner_gnb {
+    width: 100%;
+    height: 70%;
+    font-size: 1vw;
+    font-weight: 700;
+}
+
+.item {
+    width: 100%;
+    height: 80%;
+    line-height: 60px;
+    font-weight: 500;
+}
+
+.item li {
+    height: 30%;
+    font-size: 0.8vw;
+    transition: .3s;
+}
+
+.right_nav {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 22%;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.language {
+    width: 9.5%;
+    height: 28%;
+}
+
+.language img {
+    width: 100%;
+    height: 100%;
+}
+
+.search {
+    all: unset;
+    width: 12vw;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-size: 0.7vw;
+    opacity: 0.67;
+    border-radius: 15px;
+    padding-left: 1vw;
+}
+
+header:hover {
+    height: 38.5vh;
+    z-index: 999;
+}
+
+.item li:hover {
+    color: #10AD76;
+    /* font-size: 1.05vw; */
+    font-weight: 700;
+}
+
+.mo{
+    display: none;
+}
+
+@media screen and (max-width:450px){
+
+
+    .mo_header {
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        padding: 0 15px;
+        box-sizing: border-box;
+        background-color: #fff;
+        z-index: 9999;
+    }
+
+    .menubar {
+        width: 35px;
+        height: 35px;
+        position: relative;
+        top: 15px;
+    }
+
+    .menubar img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mo_logo {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 43%;
+        transform: translateY(-50%);
+        top: 50%;
+    }
+
+    .mo_logo img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .mo_search {
+        width: 100px;
+        height: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 5px 0 0 5px ;
+        box-sizing: border-box;
+        border-radius: 5px;
+        position: absolute;
+        right: 15px;
+        top: 37%;
+    }
+
+    .mo_search p {
+        font-size: 9px;
+        opacity: 0.67;
+    }
+
+    /* header_mo */
+
+    .mo_menu_box {
+        width: 90%;
+        height: 100vh;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        left: -500px;
+        padding: 19px 15px;
+        box-sizing: border-box;
+        transition: all 1s;
+        transition-timing-function: ease;
+        z-index: 9999;
+    }
+
+    .mo_clickbox {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        right: 15px;
+    }
+
+    .mo_clickbox img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .line {
+        width: 92.5%;
+        height: 2px;
+        background-color: #333;
+        position: absolute;
+        top: 65px;
+        opacity: 0.25;
+    }
+
+    .mo_menu_link {
+        width: 50%;
+        height: 300px;
+        position: absolute;
+        top: 125px;
+    }
+
+    .inner_link {
+        font-size: 36px;
+        font-weight: 700;
+        margin: 0 0 30px 5px;
+    }
+
+    .mo_menu_footer {
+        position: absolute;
+        top: 450px;
+    }
+
+    .mo_footer_logo {
+        width: 100px;
+        height: 100px;
+        margin-top: 15px;
+    }
+
+    .mo_footer_logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mo_adress {
+        margin-top: 25px;
+    }
+
+    .mo_adress {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .mo_adress p {
+        margin-bottom: 15px;
+    }
+
+    .mo_copy {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .mo_menu_copy{
+        line-height: 1.0;
+    }
+
+    .line_2 {
+        width: 92.5%;
+        height: 2px;
+        background-color: #333;
+        position: absolute;
+        bottom: 30px;
+        opacity: 0.25;
+    }
+    
+
+}

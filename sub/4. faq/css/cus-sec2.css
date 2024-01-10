@@ -1,0 +1,131 @@
+.sec_2 {
+    width: 100%;
+}
+
+.sec_2_title {
+    font-size: 2vw;
+    letter-spacing: -1.56px;
+    margin: 0 auto 150px auto;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.sec_2_nav p {
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.nav_1 {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+#inq {
+    all: unset;
+    width: 120px;
+    height: 30px;
+    margin: 7px 0 0 40px;
+    border: 1px solid #333;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.inputbox_1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.cus-info {
+    all: unset;
+    width: 58%;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 7px;
+    color: #1d1d1d;
+    opacity: 0.67;
+    padding-left: 15px;
+}
+
+.cus-info:nth-child(1) {
+    margin-top: 30px;
+}
+
+.cus-info:nth-child(2) {
+    margin: 30px 0;
+}
+
+.cus-info:nth-child(3) {
+    margin-bottom: 80px;
+}
+
+.nav_3 .nav_title {
+    margin-bottom: 30px;
+}
+
+.nav_3_small p {
+    font-size: 0.95vw;
+    color: #1d1d1d;
+    opacity: 0.67;
+    font-weight: 400;
+    margin: 0 0 20px 5px;
+}
+
+.nav_3_small {
+    margin-bottom: 50px;
+}
+
+.nav_3_text {
+    all: unset;
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+}
+
+/* .nav_3_last {
+    width: 100%;
+    height: 350px;
+} */
+
+.nav_3_small textarea {
+    width: 100%;
+    height: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+textarea {
+    width: 100%;
+    height: 350px;
+    font-family: 'noto sans kr', sans-serif;
+    overflow-y: auto;
+    display: block;
+}
+
+.gobox {
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #09AB72;
+    color: #fff;
+    font-weight: 600;
+    margin: 55px auto 100px auto;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* .sec_2 {
+    display: none;
+} */

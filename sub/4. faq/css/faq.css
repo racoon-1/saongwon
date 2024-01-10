@@ -1,0 +1,391 @@
+@media all and (max-width: 390px) {
+
+    .mo_header {
+        width: 100%;
+        height: 70px;
+        position: fixed;
+        padding: 0 15px;
+        box-sizing: border-box;
+        background-color: #fff;
+        z-index: 9999;
+    }
+
+    .menubar {
+        width: 35px;
+        height: 35px;
+        position: relative;
+        top: 15px;
+    }
+
+    .menubar img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mo_logo {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 41%;
+        transform: translateY(-50%);
+        top: 50%;
+    }
+
+    .mo_logo img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .mo_search {
+        width: 100px;
+        height: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 5px 0 0 5px ;
+        box-sizing: border-box;
+        border-radius: 5px;
+        position: absolute;
+        right: 15px;
+        top: 37%;
+    }
+
+    .mo_search p {
+        font-size: 9px;
+        opacity: 0.67;
+    }
+
+    /* mo-header end */
+
+    .mo_menu_box {
+        width: 90%;
+        height: 100vh;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        left: -500px;
+        padding: 19px 15px;
+        box-sizing: border-box;
+        transition: all 1s;
+        transition-timing-function: ease;
+        z-index: 9999;
+    }
+
+    .mo_clickbox {
+        width: 35px;
+        height: 35px;
+        position: absolute;
+        right: 15px;
+    }
+
+    .mo_clickbox img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .line {
+        width: 92.5%;
+        height: 2px;
+        background-color: #333;
+        position: absolute;
+        top: 65px;
+        opacity: 0.25;
+    }
+
+    .mo_menu_link {
+        width: 50%;
+        height: 300px;
+        position: absolute;
+        top: 130px;
+    }
+
+    .inner_link {
+        font-size: 36px;
+        font-weight: 700;
+        margin: 0 0 45px 5px;
+    }
+
+    .mo_menu_footer {
+        position: absolute;
+        top: 450px;
+    }
+
+    .mo_footer_logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .mo_footer_logo img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .mo_adress {
+        margin-top: 25px;
+    }
+
+    .mo_adress {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .mo_adress p {
+        margin-bottom: 20px;
+    }
+
+    .mo_copy {
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .line_2 {
+        width: 92.5%;
+        height: 2px;
+        background-color: #333;
+        position: absolute;
+        bottom: 30px;
+        opacity: 0.25;
+    }
+
+    /* mo_menu_box */
+
+    .sec_1 {
+        width: 100%;
+        height: 260px;
+    }
+
+    .sec_1_title {
+        top: 58.5%;
+        font-size: 36px;
+    }
+    /* sec-1 end */
+
+    .tab {
+        width: 100%;
+    }
+
+    .tab_nav {
+        width: 80%;
+    }
+
+
+    /* tab end */
+
+    .wrap .route {
+        padding: 0;
+    }
+
+    .route span {
+        width: 42px;
+        height: 18px;
+        margin: 0 10px;
+    }
+
+    .arrow img {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* route */
+
+    .wrap .sec_2  {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .sec_2_title {
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 60px;
+    }
+
+    .sec_2_nav {
+        width: 100%;
+    }
+
+    .nav_title p {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    .nav_1 {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    #inq {
+        margin: 20px 0 0 0;
+        border-radius: 5px;
+        height: 35px;
+    }
+
+    .nav_2 {
+        width: 100%;
+    }
+
+    .inputbox_1 {
+        width: 100%;
+    }
+
+    .cus-info {
+        width: 360px;
+        height: 35px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        font-size: 12px;
+    }
+
+    .nav_3_small p {
+        font-size: 12px;
+    }
+
+    .nav_3_text {
+        height: 35px;
+    }
+
+    .sec_2 .gobox {
+        width: 240px;
+        font-size: 18px;
+    }
+    /* 고객지원 end */
+
+    .sec_3 {
+        width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+        height: 860px;
+    }
+
+    .sec_3_container {
+        width: 100%;
+        height: 680px;
+    }
+
+    .faq {
+        height: 120px;
+        padding: 0 10px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #333;
+        line-height: 120px;
+    }
+
+    .faq p {
+        font-size: 14px;
+    }
+
+    .last_faq {
+        line-height: 126px;
+    }
+
+   
+    .page {
+        width: 250px;
+    }
+
+    .page p {
+        font-size: 16px;
+    }
+
+    .page img {
+        width: 9px;
+        height: 18px;
+    }
+
+    /* faq end */
+
+    footer {
+        width: 100%;
+        height: 530px;
+        padding: 30px 40px 60px 40px;
+        box-sizing: border-box;
+    }
+
+    .footer_container {
+        width: 100%;
+        position: relative;
+        top: 0;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .info {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .info_inner {
+        width: 50%;
+        height: 20px;
+    }
+
+    .info_inner p  {
+        font-size: 10px;
+    }
+
+    .com {
+        width: 105%;
+    }
+
+    .com p {
+        font-size: 9px;
+    }
+
+    .right {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .right p {
+        font-size: 10px;
+    }
+
+    .call {
+        width: 80%;
+    }
+    
+    .copy {
+        width: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .copy img {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+
+    .copy p {
+        font-size: 11px;
+    }
+
+    .copy_text {
+        width: 100%;
+    }
+
+    .inner_sns {
+        width: 32px;
+        height: 32px;
+        margin-left: 8px;
+    }
+
+
+
+    .mo_copy {
+        position: absolute;
+        font-size: 11px;
+        bottom: -47%;
+        left: 38%;
+        transform: translateX(-38%);
+        width: 100%;
+    }
+    /* footer */
+
+    
+}

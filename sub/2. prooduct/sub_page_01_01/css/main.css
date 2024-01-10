@@ -1,0 +1,326 @@
+@import url(reset.css);
+@import url(common.css);
+
+.sub_img {
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/sub_img_1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.sub_title {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 5%;
+}
+
+.sub_title > h2 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 72px;
+}
+
+.tag {
+  line-height: 29px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 8.5);
+}
+
+.sub_title > .sub_text {
+  font-size: 20px;
+  line-height: 29px;
+  letter-spacing: 0px;
+  margin-top: 30px;
+}
+
+.span {
+  margin: 0 20px;
+}
+
+.tab_back_color {
+  width: 100%;
+  height: 66px;
+  margin: 0 auto;
+}
+
+.route {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin: 5% 0 10% 0;
+  padding-left: 5%;
+  box-sizing: border-box;
+}
+
+.in_route {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.route p {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1d1d1d;
+}
+
+.route img {
+  width: 30px;
+  height: 30px;
+}
+
+.route img:nth-child(2),
+.route img:nth-child(4) {
+  width: 10px;
+  height: 20px;
+}
+
+.product_name {
+  margin-left: 30px;
+}
+
+label {
+  cursor: pointer;
+}
+
+.tab {
+  width: 1000px;
+  height: 66px;
+  display: flex;
+  justify-content: space-around;
+  line-height: 66px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+#tab_1:checked ~ .tab1 {
+  height: 100%;
+  border-bottom: 3px solid #09ab72;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+#tab_2:checked ~ .tab2 {
+  height: 100%;
+  border-bottom: 3px solid #09ab72;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+#tab_3:checked ~ .tab3 {
+  height: 100%;
+  border-bottom: 3px solid #09ab72;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+#tab_4:checked ~ .tab4 {
+  height: 100%;
+  border-bottom: 3px solid #09ab72;
+  font-weight: 700;
+  box-sizing: border-box;
+}
+
+.tab > input {
+  display: none;
+}
+
+.bg {
+  width: 450px;
+  background-image: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: space-around;
+}
+
+.contents_2 {
+  display: none;
+}
+
+.contents_3 {
+  display: none;
+}
+
+.contents_4 {
+  display: none;
+}
+
+.con_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.con_box img {
+  width: 350px;
+}
+
+.btn {
+  width: 180px;
+  height: 50px;
+  background-color: #09ab72;
+  text-align: center;
+  /* line-height: 50px; */
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 5px 20px;
+  margin: 5% auto;
+  cursor: pointer;
+}
+
+.btn > p {
+  letter-spacing: -0.5px;
+}
+
+.btn > img {
+  width: 30px;
+  height: 20px;
+}
+
+.con {
+  width: 350px;
+  text-align: center;
+}
+
+.con h2 {
+  color: #1d1d1d;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.text {
+  margin: 10% auto 30% auto;
+}
+/* ===== */
+
+@media all and (max-width: 1000px) {
+  .tab {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  label {
+    letter-spacing: 0px;
+  }
+
+  .con {
+    width: 60%;
+  }
+
+  .con > img {
+    width: 100%;
+  }
+
+  .con_box {
+    display: block;
+  }
+
+  .bg {
+    width: 45%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 920px) {
+  .product_name {
+    margin-left: 3%;
+  }
+}
+
+@media all and (max-width: 820px) {
+  .sub_img {
+    height: 500px;
+  }
+
+  .sub_title > h2 {
+    font-size: 45px;
+  }
+
+  .tag {
+    font-size: 18px;
+  }
+
+  .product_name {
+    margin-left: 2%;
+  }
+
+  .sub_title > .sub_text {
+    font-size: 18px;
+  }
+
+  .btn {
+    height: 45px;
+    padding: 0px 10%;
+    margin: 5% auto;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .sub_img {
+    height: 400px;
+  }
+
+  .sub_title > .sub_text {
+    margin-top: 3%;
+  }
+
+  .in_route {
+    width: 30%;
+  }
+
+  .con {
+    width: 100%;
+  }
+
+  .btn {
+    width: 70%;
+  }
+
+  .btn > p {
+    font-size: 16px;
+  }
+
+  .btn > img {
+    width: 20%;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .sub_title > h2 {
+    font-size: 40px;
+  }
+
+  .tag {
+    font-size: 16px;
+  }
+
+  .sub_title > .sub_text {
+    font-size: 16px;
+  }
+
+  .bg {
+    width: 60%;
+    background-image: url(none);
+  }
+
+  .btn {
+    width: 90%;
+  }
+}

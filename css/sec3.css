@@ -1,0 +1,56 @@
+.sec_3 {
+    height: 74vh;
+    position: relative;
+    padding: 6% 15.6%;
+    box-sizing: border-box;
+    background-color: #10AD76;
+    margin-top: 11vh;
+}
+
+.sec_3 p {
+    color: #fff;
+}
+
+.sec_3_container {
+    text-align: center;
+}
+
+.sec_3_title {
+    height: 25%;
+    margin-bottom: 10vh;
+}
+
+.sec_3_main {
+    font-size: 3.75vw; /* 72px */
+    font-weight: 700;
+    margin-bottom: 2.5vh;
+}
+
+.sec_3_sub, .rd_title {
+    font-size: 1.5vw; /* 32px */
+}
+
+.rd {
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+.rd_inner {
+    width: 20%;
+}
+
+.rd_inner img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.rd_sub {
+    font-size: 1.15vw;
+    line-height: 3.5vh;
+}
+
+.rd_title {
+    margin: 2.5vh 0;
+}

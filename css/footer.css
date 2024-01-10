@@ -1,0 +1,95 @@
+footer {
+    height: 45vh;
+    padding: 3.2% 13.7% 1.8% 13.7%;
+    /* border: 1px solid #333; */
+    box-sizing: border-box;
+    /* background-color: #10AD76; */
+    background-color: #160D00;
+    color: #fff;
+}
+
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    color: #c1c1c1;
+}
+
+.info p, .copy p, .right p {
+    font-size: 0.85vw; /* 16px */
+}
+
+.com p {
+    font-size: 0.75vw; /* 14px */
+}
+
+.left {
+    width: 48%;
+}
+
+.info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.com {
+    margin: 4.7vh 0 2.5vh 0;
+    line-height: 3vh;
+}
+
+.copy {
+    display: flex;
+}
+
+.copy img {
+    width: 170px;
+    height: 120px;
+}
+
+.copy_text {
+    padding: 5vh 0 0 2vw;
+}
+/* left end */
+
+.right {
+    width: 16%;
+    margin-top: 5vh;
+}
+
+.call_top, .call_bot {
+    display: flex;
+    justify-content: space-between;
+}
+
+.number {
+    font-weight: 600;
+}
+
+.call {
+    line-height: 4.5vh;
+    margin-bottom: 2vh;
+}
+
+.date {
+    line-height: 2.5vh;
+    margin-bottom: 2vh;
+}
+
+.date_text {
+    line-height: 28px;
+}
+
+
+.sns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner_sns {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

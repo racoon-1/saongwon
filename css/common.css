@@ -1,0 +1,42 @@
+@import url(header.css);
+@import url(sec1.css);
+@import url(sec2.css);
+@import url(sec3.css);
+@import url(sec4.css);
+@import url(footer.css);
+@import url(media.css);
+
+
+
+/* body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #1d1d1d;
+    letter-spacing: -1;
+}
+ */
+.wrap {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+header, section, footer {
+    width: 100%;
+}
+
+
+.mo {
+    display: none;
+}
+
+@media all and (max-width:450px) {
+    .mo {
+        display: block;
+    }
+
+    .web {
+        display: none;
+    }
+
+}
+

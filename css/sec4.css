@@ -1,0 +1,63 @@
+.sec_4 {
+    padding: 10.55% 7.9%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.sec_4_imgbox {
+    width: 60%;
+    height: 500px;
+    background-image: url(../img/main/mole.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.sec_4_title {
+    margin-top: 7vh;
+    margin-left: 8vh;
+}
+
+.sec_4_main {
+    line-height: 10.5vh;
+}
+
+.sec_4_sub {
+    opacity: 0.67;
+    margin: 3vh 0 4vh 0;
+    line-height: 2.5vh;
+    font-size: 1vw;
+}
+
+.mole_btn {
+    width: 75%;
+    height: 17%;
+    background-color: #10AD76;
+    text-align: center;
+    line-height: 73px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.4vw;
+    cursor: pointer;
+}
+
+.mole_btn a {
+    color: #fff;
+}
+
+.mole_btn p {
+    color: #fff;
+}
+
+.mole {
+    font-weight: 600;
+    font-size: 1.05vw;
+    margin-left: 2vw;
+}
+
+.mole_btn img {
+    width: 50px;
+    height: 16px;
+    margin: 3vh 2vw 0 0;
+}

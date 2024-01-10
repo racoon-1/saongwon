@@ -1,0 +1,42 @@
+@import url(header.css);
+@import url(cus-sec1.css);
+@import url(cus-sec2.css);
+@import url(cus-sec3.css);
+@import url(footer.css);
+@import url(route.css);
+@import url(faq.css);
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #1d1d1d;
+    letter-spacing: -1;
+}
+
+.wrap {
+    width: 100%;
+    position: relative;
+    z-index: 999;
+}
+
+header, section, footer {
+    width: 100%;
+}
+
+.route, .sec_2 {
+    padding: 4% 23%;
+    box-sizing: border-box;
+}
+
+.mo {
+    display: none;
+}
+
+@media all and (max-width:390px) {
+    .mo {
+        display: block;
+    }
+
+    .web {
+        display: none;
+    }
+}

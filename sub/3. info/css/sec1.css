@@ -1,0 +1,44 @@
+.section_1{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/main/NEWS.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: translateY(100px);
+}
+
+.opacity_box_1{
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    opacity: 0.3;
+    position: absolute;
+}
+
+.section_1>p{
+    position: relative;
+    font-size: 70px;
+    font-weight: 800;
+    color: #fff;
+    line-height: 500px;
+    text-align: center;
+}
+
+@media screen and (max-width:960px){
+    
+    .section_1{
+        width: 100%;
+        height: 200px;
+    }
+
+    .opacity_box_1{
+        width: 100%;
+        height: 200px;
+    }
+
+    .section_1>p{
+        font-size: 30px;
+        line-height: 200px;
+    }
+}
